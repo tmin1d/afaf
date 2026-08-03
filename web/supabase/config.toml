@@ -1,0 +1,4 @@
+project_id = "guswo"
+
+[functions.esp32-wifi]
+verify_jwt = false

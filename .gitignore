@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+build/
+.DS_Store
+
+# Supabase local runtime files
+web/supabase/.branches/
+web/supabase/.temp/
+
+# Arduino build/cache files
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
