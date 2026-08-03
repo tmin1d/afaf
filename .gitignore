@@ -17,3 +17,6 @@ web/supabase/.temp/
 *.map
 *.hex
 *.uf2
+
+# Local Arduino secrets
+esp32/**/secrets.h

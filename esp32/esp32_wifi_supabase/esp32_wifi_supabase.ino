@@ -1,12 +1,6 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
-
-// Fill these locally before uploading to ESP32.
-// Do not commit real Wi-Fi or Supabase values.
-const char* WIFI_SSID = "YOUR_WIFI_SSID";
-const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
-const char* SUPABASE_FUNCTION_URL = "https://YOUR_PROJECT_REF.functions.supabase.co/esp32-wifi";
-const char* SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+#include "secrets.h"
 
 const char* DEVICE_ID = "esp32-001";
 const int LED_PIN = 2;
